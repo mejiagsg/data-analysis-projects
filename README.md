@@ -32,3 +32,8 @@ The `procesar_reporte_ventas.py` script automates the extraction, transformation
 3️⃣ **Run the script:**
    python procesar_reporte_ventas.py
 
+📢 Notes
+Make sure you have a Google Cloud Service Account key configured before running the script.
+You may need to adjust the script to match your specific project and dataset configurations.
+🚀 Happy coding! 🎯
+
