@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # Configuración de credenciales para Google Cloud
-SERVICE_ACCOUNT_FILE = "C:/Users/mejia/MisProyectos/Claves/valetdata-3dec9d3372ec.json"
+SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = SERVICE_ACCOUNT_FILE
 
 # Inicializar clientes de Google Cloud (Storage y BigQuery)
