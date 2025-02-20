@@ -21,6 +21,12 @@ The `procesar_reporte_ventas.py` script automates the extraction, transformation
 - `README.md` → Project documentation.
 
 ### 📌 How to Use:
-1. Clone the repository:
+1️⃣ **Clone the repository:**
    ```bash
    git clone https://github.com/mejiagsg/data-analysis-projects.git
+
+2️⃣ Install dependencies:
+pip install pandas openpyxl google-cloud-storage google-cloud-bigquery
+
+3️⃣ Run the script:
+python procesar_reporte_ventas.py
