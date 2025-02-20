@@ -24,5 +24,3 @@ The `procesar_reporte_ventas.py` script automates the extraction, transformation
 1. Clone the repository:
    ```bash
    git clone https://github.com/mejiagsg/data-analysis-projects.git
-pip install pandas openpyxl google-cloud-storage google-cloud-bigquery
-python procesar_reporte_ventas.py
